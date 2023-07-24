@@ -1,4 +1,4 @@
-//! Play Conway's Game of Life on the MB2 LED "display".
+//! Randomize the MB2 LED "display" while the A button is pressed.
 
 #![no_std]
 #![no_main]
