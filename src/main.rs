@@ -22,7 +22,7 @@ use panic_halt as _;
 fn randomize_fb(rng: &mut Pcg64, fb: &mut [[u8; 5]; 5]) {
     for r in fb.iter_mut() {
         for cell in r.iter_mut() {
-            *cell = rng.generate_range(0..2);
+            *cell = rng.generate_range(0..=1);
         }
     }
 }
